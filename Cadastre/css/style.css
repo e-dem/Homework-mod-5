@@ -193,6 +193,8 @@ button {
   border-color: #6bb8e7;
   margin: 23px 0px;
   cursor: pointer;
+  color: #fff;
+  font-size: 14px;
 }
 
 .login p {
