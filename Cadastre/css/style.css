@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-roman-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: "Helvetica Neue", Tahoma, sans-serif;
+}
+
+.top_bar {
+  height: 36px;
+  background: url('../img/pattern.jpg') repeat-x;
+  text-align: right;
+  overflow: hidden;
+}
+
+.top_bar li {
+  display: inline-block;
+  font-size: 14px;
+  list-style: none;
+}
+
+.top_bar ul {
+    margin-right: 20px;
+}
+
+.menu {
+  line-height: 36px;
+  font-size: 14px;
+  color: #60b5ed;
+  padding: 0px 12px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.menu:hover {
+background-color: #4eabda;
+color: #fff;
+}
+.vb {
+  width: 1px;
+  margin: 2px 0px;
+}
+
+.minhas, .ola {
+color: #fff;
+}
+
+.minhas {
+ vertical-align: top;
+ line-height: 36px;
+ padding: 0px 12px 0px 0px;
+}
+
+.ola {
+  vertical-align: top;
+  padding: 0px 12px;
+  background: linear-gradient(180deg, #51b1dc, #2e7ac4);
+  background-origin: border-box;
+  background-clip: border-box;
+}
+
+.ola a{
+  color: #fff;
+  text-decoration: underline;
+  line-height: 36px;
+  box-sizing: border-box;
+}
+
+.flag {
+  padding: 0px 0px 0px 12px;
+}
+
+.flag img {
+    margin: 2px 10px 0px 0px;
+}
+
+/*------------account----------*/
+
+div.wrapper {
+    width: 100%;
+    height: calc(100vw*1028/1215); /* высота = ширина экрана*соотношение сторон бэкграунда */
+    background-image: url('../img/bg.jpg');
+    background-size: 100%;
+}
+
+.account {
+  width: 560px;
+  height: 610px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  left: calc(50% - 280px); /* left = половина ширины экрана - половина ширины блока  */
+  top: calc(100vw*1028/1215/2 - 305px + 36px); /* top = половина пропорциональной высоты бэкграунда - половина высоты блока + высота меню */
+}
+
+.cadastre-se {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  height: 62px;
+  padding: 16px 0px;
+  background: rgba(0, 0, 0, 0.6);
+  margin: 0px 0px 2px 0px;
+  box-sizing: border-box;
+}
+
+.login {
+  background: rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  height: 546px;
+  text-align: center;
+}
+
+.facebook {
+  width: 276px;
+  height: 35px;
+  margin-top: 36px;
+}
+
+.login ul {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.login ul li{
+  display: inline-block;
+  line-height: 14px;
+  list-style: none;
+}
+
+.login ul li img{
+  margin-bottom: 5px;
+}
+
+.login ul li:first-child {
+  margin-right: 2px;
+}
+
+.login ul li:last-child {
+  margin-left: 2px;
+}
+form {
+  width: 276px;
+  margin: 0 auto;
+  margin-top: 14px;
+  color: #cccccc;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  height: 36px;
+  width: 276px;
+  margin-top: 13px;
+  background: url('../img/input_bg.jpg') repeat-x #101010;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #4b4b4b;
+  color: #cccccc;
+  font-size: 14px;
+  padding-left: 20px;
+}
+input[type="text"]:hover, input[type="text"]:focus,
+input[type="password"]:hover, input[type="password"]:focus,
+input[type="email"]:hover, input[type="email"]:focus {
+background: url('../img/input_bg_hover.jpg') repeat-x #1b5287;
+-webkit-box-shadow: 0px 0px 12px 0px rgba(108,158,208,1);
+-moz-box-shadow: 0px 0px 12px 0px rgba(108,158,208,1);
+box-shadow: 0px 0px 12px 0px rgba(108,158,208,1);
+}
+
+input[type="checkbox"] {
+  padding: 0px;
+  margin: 20px 8px 0px 0px;
+}
+
+button {
+  width: 150px;
+  height: 36px;
+  -moz-border-radius:  5px; /* Firefox */
+  -webkit-border-radius:  5px; /* Safari 4 */
+  border-radius:  5px; /* IE 9, Safari 5, Chrome */
+  background: linear-gradient(180deg, #53b1dd, #2e7ac4);
+  border-color: #6bb8e7;
+  margin: 23px 0px;
+  cursor: pointer;
+}
+
+.login p {
+  font-size: 11px;
+  color: #cccccc;
+  margin-bottom: 3px;
+}
