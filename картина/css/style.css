@@ -60,9 +60,9 @@ table.tab td.bottom {
 
 /*----------------ШИРИНА И ФОН-------------*/
 
-/*.cell1 {
-  width: 116px;
-}*/
+.cell1, .cell2, .cell7, .cell12, .cell14, .cell16, .cell18 {
+  background-color: #fff;
+}
 
 .cell3 {
   background-color: #fff76b;
@@ -70,6 +70,7 @@ table.tab td.bottom {
 
 .cell4 {
   width: 47px;
+  background-color: #fff;
 }
 
 .cell5 {
@@ -81,19 +82,18 @@ table.tab td.bottom {
   background-color: #fff76b;
 }
 
-.cell8 {
+.cell8, .cell9 {
   width: 77px;
+  background-color: #fff;
 }
 
-.cell9 {
-  width: 77px;
-}
 .cell10 {
   background-color: #000;
   width: 133px;
 }
 .cell11 {
   width: 126px;
+  background-color: #fff;
 }
 
 .cell13 {
